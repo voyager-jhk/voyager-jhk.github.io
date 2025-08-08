@@ -2,7 +2,7 @@
 :root {
     --primary-color: #333;
     --secondary-color: #f4f4f4;
-    --accent-color: #007bff;
+    --accent-color: #a87654;
     --text-color: #555;
     --font-heading: 'Playfair Display', serif;
     --font-body: 'Noto Sans SC', sans-serif;
@@ -12,7 +12,7 @@
 
 body {
     font-family: var(--font-body);
-    line-height: 1.6;
+    line-height: 1.7;
     margin: 0;
     background-color: #fff;
     color: var(--text-color);
@@ -70,10 +70,10 @@ body {
 /* 主体内容样式 */
 h2 {
     font-family: var(--font-heading);
-    font-size: 2.5rem;
+    font-size: 2.8rem;
     font-weight: 700;
     color: var(--primary-color);
-    margin-bottom: 1rem;
+    margin-bottom: 1.5rem;
 }
 
 .hero-section {
@@ -97,11 +97,13 @@ h2 {
     text-decoration: none;
     border-radius: 5px;
     font-weight: 700;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, transform 0.3s ease;
 }
 
 .cta-button:hover {
-    background-color: #0056b3;
+    background-color: #8c5d40;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
 }
 
 .about-section, .portfolio-section {
